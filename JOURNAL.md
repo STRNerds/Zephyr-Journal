@@ -16,3 +16,16 @@ I also looked at some drone designs online and began modelling a basic chassis t
 <img src="./First Chassis.png" width="100%" /> 
 
 **Total time spent: 4h**
+
+# July 16th: Continued CAD
+By: Alex
+
+By working off of Radean's basic chassis, I was able to model a more refined version, giving more consideration to the battery placement, since it is one of the largest electrical components of our drone. As there were no available CAD models online, I blocked out a dummy. I then gave the chassis openings on the top and the rear so that we would have easy access to the internal components of the chassis during construction and regular usage.
+
+<img src="./First Chassis (1).png" width="40%" style="display: inline-block; margin-right: 2%;"> <img src="./First Chassis (2).png" width="40%" style="display: inline-block;">
+
+After determining that we wanted to mount the motors and propellors in an X-shape, and after deciding on using 5-inch propellers, I made some simple measurements and placed out our four motors in a new CAD file for later reference:
+
+<img src="./Motor Placements.png" width="100%">
+
+**Total time spent: 2h**
