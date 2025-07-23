@@ -29,3 +29,13 @@ After determining that we wanted to mount the motors and propellors in an X-shap
 <img src="./Motor Placements.png" width="100%">
 
 **Total time spent: 2h**
+
+# July 21st: Camera Housing
+By: Radean
+
+Identifying a need to create a housing for the Raspberry Pi camera module, both to securely mount it and to shield it, I worked on creating a suitable case. I began by finding a drawing of the camera online, off of which I created a rough sketch for the base of the housing. After some time struggling to find a model for the camera module online, I succeeded in downloading one and added it to fusion, adding it to the sketch and making extrusions to fit it. Finally, I added a small hole for a screw joint on the back of the case so that it can be attached to the rest of the drone.
+
+<img src="./Camera Front.png" width="40%">
+<img src="./Camera Back.png" width="40%">
+
+**Total time spent: 2h**
