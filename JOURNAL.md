@@ -39,3 +39,16 @@ Identifying a need to create a housing for the Raspberry Pi camera module, both 
 <img src="./Camera Back.png" width="40%">
 
 **Total time spent: 2h**
+
+# July 23st: Propeller Arms
+By: Alex
+
+I first created four extrusions on the main chassis where the propeller arms could be attached.
+
+<img src="./First Chassis (3).png" width="100%">
+
+I then took my previous blockout of the motor positioning and built up four arms in CAD that would attach to the extrusions on the main chassis. The design for these arms took a couple iterations. It would also be beneficial to create supportive trusses underneath the arms to decrease the risk of the arms snapping off, as PLA is relatively weak.
+
+<img src="./Arms.png" width="100%">
+
+**Total time spent:3h**
