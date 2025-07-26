@@ -40,7 +40,7 @@ Identifying a need to create a housing for the Raspberry Pi camera module, both 
 
 **Total time spent: 2h**
 
-# July 23st: Propeller Arms
+# July 23rd: Propeller Arms
 By: Alex
 
 I first created four extrusions on the main chassis where the propeller arms could be attached.
@@ -51,4 +51,18 @@ I then took my previous blockout of the motor positioning and built up four arms
 
 <img src="./Arms.png" width="100%">
 
-**Total time spent:3h**
+**Total time spent: 3h**
+
+# July 24th: Arm Improvements & Assembly
+By: Radean
+
+Building upon Alex's work, I began by adding a "roof" to each of the arms, helping to shield the wires and electronics that will run through them and providing increased structural support. These were constructed to almost perfectly fit the motors (aside from some tolerance) to ensure optimal coverage of the area across which the wires will be run.
+
+<img src="./Arms (2).png" width="100%">
+
+I then started work on adding the camera to the rest of the chassis assembly. I thought that it may be suboptimal to just screw it in for fear of it getting loose, and spent some time looking at ways different companies mounted their cameras, but couldn't find any particularly good alternatives, especially compared to the ease of using a screw. I looked into different ways of adding screws to the CAD, learning how to use Fusion's own "Fastener" tool/library and trying to insert something that way, but I wasn't able to find anything that was the proper length (70cm) despite spending significant time trying. As a result, I ended up finding a suitable screw on the McMaster-Carr website and importing that. Finally, I added some reinforcements to the outside walls of the drone so that the screws wouldn't shatter them.
+
+<img src="./Camera Mount.png" width="40%">
+<img src="./Reinforcements.png" width="100%">
+
+**Total time spent: 4h**
