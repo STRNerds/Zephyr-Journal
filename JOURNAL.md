@@ -66,3 +66,12 @@ I then started work on adding the camera to the rest of the chassis assembly. I 
 <img src="./Reinforcements.png" width="100%">
 
 **Total time spent: 4h**
+
+# July 25th: Roof redesign + minor tweaks
+By: Radean
+
+I fully assembled our current work, adding the arms (which had their own file on an outdated version of the chassis) to the latest version of the chassis, which also includes the camera. I also worked on redesigning the roof, which I felt looked weird and would have been very difficult to attach to the rest of the body. Due to some weird version history, this forced me to start almost from scratch on much of the chassis, as simply deleting the chamfers destroyed the entire CAD. Rather than making it angled, I made the roof flat so that it will be easier to assemble, then added some slight fillets and chamfers for style. I also changed the colour in the CAD to black - the colour of the filament I have available.
+
+<img src="./Tweaks.png" width="40%">
+
+**Total time spent: 3h**
