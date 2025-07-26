@@ -75,3 +75,14 @@ I fully assembled our current work, adding the arms (which had their own file on
 <img src="./Tweaks.png" width="40%">
 
 **Total time spent: 3h**
+
+# July 25th: Arm redesign
+By: Alex
+
+I had noticed that the propellor arms were unnecessarily large and blocky. This meant that they would be heavy and an inefficient usage of filament. Firstly, I undid some of the initial chamfering so the arm roofs could fit better. I then shortened, widened, and chamfered the roofs to give them a lower overall profile. I made sure to maintain enough space within the roofs to hold wires.
+
+<img src="./Arms (3).png" width="100%">
+
+I then made some stylish adjustments to the chassis.
+
+**Total time spent: 2h**
