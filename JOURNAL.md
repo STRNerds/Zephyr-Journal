@@ -86,3 +86,27 @@ I had noticed that the propellor arms were unnecessarily large and blocky. This 
 I then made some stylish adjustments to the chassis.
 
 **Total time spent: 2h**
+
+# July 28th: Software
+By: Radean
+
+I began working on the software for the drone. Although the vehicle itself is needed to implement a lot of the things we want (as we need to tune in accordance with motor strength, power levels, computing power, etc.), there are still a number of features that can be worked on in advance, like the connection to the flight controller, the AI model for detecting objects and the design of the website we will use to control it.
+
+First off, I created a rough outline of what the dashboard will look like in Figma, making sure to include key utilities such as the map, list of connections and the status of various drones. I used realtime colours to create a custom scheme that will ensure consistent styling across the site:
+
+<img src="./Website.png" width="40%"> <img src="./Colours.png" width="40%">
+
+I then spent a lot of time researching the different ways to connect the Raspberry Pi to the flight controller. I didn't really know where to start, and my mind at first went to somehow connecting them via USB, but I realized after a number of hours that it would be possible to directly connect the two via UART. Since our plan was to use ArduPilot for the flight controller, I spent some time reading through the documentation for that and saw that it would be best to use the MAVLink protocol to get full access to ArduPilot's features, leading me to write up the code for a basic connection from the Raspberry Pi:
+
+```python
+from pymavlink import mavutil
+
+# Connection to flight controller
+zephyr = mavutil.mavlink_connection('/devserial0', baud=115200)
+```
+
+Finally, I started work on a custom YOLO model for object detection. I spent some time finding a premade dataset with aerial shots, adding on to the dataset with some of my own images, learning how to train the model and debugging issues with training on CUDA. This culminated in the first draft of the model, which, although somewhat inaccurate, is a good starting point off of which I can improve:
+
+<img src="./First Detection.png" width="100%">
+
+**Total time spent: 7h**
