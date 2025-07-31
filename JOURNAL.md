@@ -152,3 +152,5 @@ I began by making feeding a live camera view to the YOLO model as opposed to a s
 After that, I had to identify the direction the object was moving in to move the drone accordingly (eg. object moves forward, so drone must move forward). I did this by comparing the object in the current frame (latest set of coordinates) with the previous ones to determine the change, which can determine direction, and drawing an arrow pointing there.
 
 With the direction figured out, all that was left was creating a basic series of movement functions for initial testing. The simplest form of following would be to move at max power in whatever direction the object is moving, without regard for how far in that direction it is. I read through MavLink documentation on the ArduPilot website and was able to figure out how to change pitch and roll values to achieve this, allowing the drone to rudmentarily track and follow a target.
+
+** Total time spent: 6h**
