@@ -1,8 +1,16 @@
 # Zephyr
 
+<img src="./Pictures/Render.png" width="100%">
+
 Zephyr is an AI powered autonomous drone built for intelligence, surveillance and reconnaissance. It uses an onboard camera and Raspberry Pi 5 to process its surroundings with machine learning, identifying objects of interest, marking them to create detailed maps of various locations and pursuing them (will only be used on the creators for fun, no intention to test on actual people!).
 
 We've always been interested in military technology, whether it be planes, tanks or ships. After seeing Anduril's Bolt/Bolt-M, we were inspired by their slick design and features and want a chance to test our own design skills in making something that is not only equal, but smaller, lighter and cheaper. We would also love to learn more about design for aerial vehicles and test a drone, something which has as of yet been out of our reach due to the relatively high cost.
+
+It will be wired as follows:
+
+<img src="./Pictures/Wiring.png" width="100%">
+
+BOM:
 
 | Name                                                                 | Cost (per) | Quantity | Total (USD) | Link (prices may be in CAD)                                                                                                                                        |
 | -------------------------------------------------------------------- | ---------- | -------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

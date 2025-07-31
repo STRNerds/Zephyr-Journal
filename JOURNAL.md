@@ -3,6 +3,7 @@ title: "Zephyr"
 authors: "Radean Rashed & Alex Li"
 description: "AI enabled quadcopter with autonomous navigation capabilities for intelligence, reconnaisance and surveillance missions."
 created_at: "2025/7/10"
+time_spent: 40 hours
 ---
 
 # July 14th: Initial research & modelling
