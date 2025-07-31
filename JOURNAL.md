@@ -123,3 +123,20 @@ I then spent some time experimenting with the fusion render workspace. After a n
 <img src="./Pictures/Render.png" width="100%">
 
 **Total time spent: 3h**
+
+# July 30th: Finishing touches
+By: Radean
+
+I began by making screw holes on the chassis and adding screws to secure the entirely assembly:
+
+<img src="./Pictures/Screws.png" width="100%">
+
+I then made some holes for cable management through the arms. Previously, there would've been no way to route cables for the motors through the arms, so I had to create something between the two. For some reason, I wasn't able to edit the arms as part of the main file, so I had to edit them separately and then resketch the holes I made on them in the main file to create a loft:
+
+<img src="./Pictures/Cables.png" width="100%">
+
+After that, I had to implement a secure mount for the battery and keep it accessible. I made a cubby for it on the "second row" of the drone and kept some space between that row and the back to route cables through, as that path leads right to the ESC, which is what it needs to power. Finally, I created a panel on the back out of polycarbonate to keep everything contained within the body of the drone:
+
+<img src="./Pictures/Battery.png" width="100%">
+
+**Total time spent: 4h**
