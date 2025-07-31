@@ -110,3 +110,16 @@ Finally, I started work on a custom YOLO model for object detection. I spent som
 <img src="./Pictures/First Detection.png" width="100%">
 
 **Total time spent: 7h**
+
+# July 29th: Props
+By: Radean
+
+Looking at the prices of propellers online, I realized that it would be more economical and easier to print our own. Because no companies had their own CAD models, I spent some time trying out different designs, but I couldn't quite get the curvature of the blades correct, and eventually found an online tutorial that helped me customize my own. I tried simply mirroring this initial CCW propeller to get a CW propeller, but for some reason, fusion made the edges of the blades jagged. After putting some time into trying to fix this, I gave up and cadded a distinct CW propeller. I then added these all to the main chassis CAD and styled it further by adding text for the name of the vehicle, finishing off the important pieces we need for the project and leaving finishing touches.
+
+<img src="./Pictures/Tweaks (2).png" width="100%">
+
+I then spent some time experimenting with the fusion render workspace. After a number of different combinations and attempts, I created the following, which we plan on using as the banner for our README:
+
+<img src="./Pictures/Render.png" width="100%">
+
+**Total time spent: 3h**
