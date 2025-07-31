@@ -141,3 +141,14 @@ After that, I had to implement a secure mount for the battery and keep it access
 <img src="./Pictures/Battery.png" width="100%">
 
 **Total time spent: 4h**
+
+# July 31st: Software MVP
+By: Radean
+
+*no images because uses live camera feed*
+
+I began by making feeding a live camera view to the YOLO model as opposed to a single image, which is needed when dealing with a drone camera. From there, I had to make it possible to isolate a single object for tracking. I did this by registering the location of mouse clicks and identifying the object at those coordinates, saving those coordinates to a variable. From there, every frame, I would search for an object at those coordinates (given tolerance for movement) and update the coordinates accordingly.
+
+After that, I had to identify the direction the object was moving in to move the drone accordingly (eg. object moves forward, so drone must move forward). I did this by comparing the object in the current frame (latest set of coordinates) with the previous ones to determine the change, which can determine direction, and drawing an arrow pointing there.
+
+With the direction figured out, all that was left was creating a basic series of movement functions for initial testing. The simplest form of following would be to move at max power in whatever direction the object is moving, without regard for how far in that direction it is. I read through MavLink documentation on the ArduPilot website and was able to figure out how to change pitch and roll values to achieve this, allowing the drone to rudmentarily track and follow a target.
